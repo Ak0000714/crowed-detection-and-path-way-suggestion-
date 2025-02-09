@@ -65,7 +65,7 @@ while True:
     current_time = time.time()
     if people_count > overcrowding_threshold and current_time - last_sms_time > sms_cooldown:
         send_email.sendmail(
-            "vivoharsha139@gmail.com", "717822p203@kce.ac.in", "fcktqlncwxtgwaik",
+            "write your mail id  "write your password",
             "Over Crowding", "Over Crowding happening Stop it"
         )
         last_sms_time = current_time
